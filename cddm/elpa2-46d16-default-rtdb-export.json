@@ -1,0 +1,229 @@
+{
+  "Admin" : {
+    "ADM_1607583909219" : {
+      "Email" : "adeytezera@gmail.com",
+      "First_Name" : "Adey",
+      "House_Number" : "1493",
+      "Kebele" : "08",
+      "Last_Name" : "Tezera",
+      "Password" : "adey",
+      "Phone" : "+251913922700",
+      "Subcity" : "Addis Ababa",
+      "Username" : "adey",
+      "Woreda" : "06",
+      "emp_id" : "ADM_1607583909219"
+    },
+    "ADM_1607594322816" : {
+      "Email" : "biruke49@gmail.com",
+      "First_Name" : "Biruk",
+      "House_Number" : "1493",
+      "Kebele" : "08",
+      "Last_Name" : "Tesfaye",
+      "Password" : "biruk",
+      "Phone" : "+251913922700",
+      "Subcity" : "Addis Ababa",
+      "Username" : "biruk",
+      "Woreda" : "05",
+      "emp_id" : "ADM_1607594322816"
+    },
+    "ADM_1607844283537" : {
+      "Email" : "biruke49@gmail.com",
+      "First_Name" : "Biruk",
+      "House_Number" : "1493",
+      "Kebele" : "08",
+      "Last_Name" : "Tesfaye",
+      "Password" : "biruk",
+      "Phone" : "+251913922700",
+      "Subcity" : "Addis Ababa",
+      "Username" : "biruk",
+      "Woreda" : "06",
+      "adm_id" : "ADM_1607844283537"
+    },
+    "ADM_1607844433366" : {
+      "Email" : "biruke49@gmail.com",
+      "First_Name" : "Nahome",
+      "House_Number" : "1493",
+      "Kebele" : "08",
+      "Last_Name" : "Tesfaye",
+      "Password" : "nahome",
+      "Phone" : "+251913922700",
+      "Subcity" : "Addis Ababa",
+      "Username" : "nahome",
+      "Woreda" : "05",
+      "adm_id" : "ADM_1607844433366"
+    }
+  },
+  "Complaint" : {
+    "COM_1607868044695" : {
+      "CID" : "5",
+      "Complaint_Date" : "2019-10-11",
+      "Grievance" : "my name is kal",
+      "Remark" : "checked",
+      "com_id" : "COM_1607868044695"
+    },
+    "COM_1607898570936" : {
+      "CID" : "1",
+      "Complaint_Date" : "2020-12-01",
+      "Grievance" : "wertyuio",
+      "Remark" : "sdfgh",
+      "com_id" : "COM_1607898570936"
+    },
+    "COM_1607898992770" : {
+      "CID" : "2",
+      "Complaint_Date" : "2020-12-03",
+      "Grievance" : "sdfghjkl",
+      "Remark" : "kjhgfds",
+      "com_id" : "COM_1607898992770"
+    }
+  },
+  "Customers" : {
+    "CUS_1607593500552" : {
+      "Email" : "kal@gmail.com",
+      "First_Name" : "Kalkidan",
+      "House_Number" : "1493",
+      "Kebele" : "08",
+      "Last_Name" : "Fekadu",
+      "Password" : "kal",
+      "Phone" : "+251913922700",
+      "Subcity" : "Addis Ababa",
+      "Username" : "kal",
+      "Woreda" : "06",
+      "emp_id" : "CUS_1607593500552"
+    },
+    "CUS_1607749530369" : {
+      "Email" : "adey@gmail.com",
+      "First_Name" : "Adey",
+      "House_Number" : "1493",
+      "Kebele" : "08",
+      "Last_Name" : "Tezera",
+      "Password" : "adey",
+      "Phone" : "+251913922700",
+      "Subcity" : "Addis Ababa",
+      "Username" : "adey",
+      "Woreda" : "05",
+      "cus_id" : "CUS_1607749530369"
+    },
+    "CUS_1607750734866" : {
+      "Email" : "mati@gmail.com",
+      "First_Name" : "Mati",
+      "House_Number" : "1493",
+      "Kebele" : "08",
+      "Last_Name" : "Fekade",
+      "Password" : "mati",
+      "Phone" : "+251913922700",
+      "Subcity" : "Addis Ababa",
+      "Username" : "mati",
+      "Woreda" : "06",
+      "cus_id" : "CUS_1607750734866"
+    },
+    "CUS_1607751326615" : {
+      "Email" : "elsa@gmail.com",
+      "First_Name" : "Elsa",
+      "House_Number" : "1493",
+      "Kebele" : "08",
+      "Last_Name" : "Girma",
+      "Password" : "biruk",
+      "Phone" : "+251913922700",
+      "Subcity" : "Addis Ababa",
+      "Username" : "biruk",
+      "Woreda" : "05",
+      "cus_id" : "CUS_1607751326615"
+    },
+    "CUS_1607934244195" : {
+      "Email" : "mezmure@gmail.com",
+      "First_Name" : "Mezmure",
+      "House_Number" : "1493",
+      "Kebele" : "08",
+      "Last_Name" : "Dawit",
+      "Password" : "mez",
+      "Phone" : "+251913922700",
+      "Subcity" : "Addis Ababa",
+      "Username" : "mez",
+      "Woreda" : "05",
+      "cus_id" : "CUS_1607934244195"
+    },
+    "CUS_1608091665778" : {
+      "Email" : "nahi26jr@gmail.com",
+      "First_Name" : "Nahome",
+      "House_Number" : "1493",
+      "Kebele" : "08",
+      "Last_Name" : "Tesfaye",
+      "Password" : "nahome",
+      "Phone" : "+251913922700",
+      "Subcity" : "Addis Ababa",
+      "Username" : "nahome",
+      "Woreda" : "05",
+      "cus_id" : "CUS_1608091665778"
+    },
+    "CUS_1608091931200" : {
+      "Email" : "kal@gmail.com",
+      "First_Name" : "Kalkidan",
+      "House_Number" : "1493",
+      "Kebele" : "08",
+      "Last_Name" : "Fekadu",
+      "Password" : "kal",
+      "Phone" : "+251913922700",
+      "Subcity" : "Addis Ababa",
+      "Username" : "kal",
+      "Woreda" : "05",
+      "cus_id" : "CUS_1608091931200"
+    },
+    "CUS_1608095341740" : {
+      "Email" : "biruke49@gmail.com",
+      "First_Name" : "Biruk",
+      "House_Number" : "1493",
+      "Kebele" : "08",
+      "Last_Name" : "Tesfaye",
+      "Password" : "biruk",
+      "Phone" : "+251913922700",
+      "Subcity" : "Addis Ababa",
+      "Username" : "biruk",
+      "Woreda" : "05",
+      "cus_id" : "CUS_1608095341740"
+    },
+    "CUS_1608096634760" : {
+      "Email" : "elsa@gmail.com",
+      "First_Name" : "Elsa",
+      "House_Number" : "1493",
+      "Kebele" : "08",
+      "Last_Name" : "Tesfaye",
+      "Password" : "dagm",
+      "Phone" : "+251913922700",
+      "Subcity" : "Addis Ababa",
+      "Username" : "kal",
+      "Woreda" : "05",
+      "cus_id" : "CUS_1608096634760"
+    }
+  },
+  "Employee" : {
+    "EMP_1607847992573" : {
+      "Email" : "biruke49@gmail.com",
+      "First_Name" : "Biruk",
+      "House_Number" : "1493",
+      "Kebele" : "08",
+      "Last_Name" : "Tesfaye",
+      "Password" : "biruk",
+      "Phone" : "+251913922700",
+      "Subcity" : "Addis Ababa",
+      "Username" : "biruk",
+      "Woreda" : "05",
+      "emp_id" : "EMP_1607847992573"
+    }
+  },
+  "Records" : {
+    "REC_1607633487979" : {
+      "Address" : "bole",
+      "Bill_Amount" : "500",
+      "CID" : "4",
+      "Current_Meter_Reading" : "121213",
+      "Date" : "2021-01-01",
+      "Device" : "147852369",
+      "First_Name" : "Biruk",
+      "Last_Name" : "Tesfaye",
+      "Previous_Meter_Reading" : "121212",
+      "Tariff" : "DOM",
+      "Unit" : "KWH",
+      "adm_id" : "REC_1607633487979"
+    }
+  }
+}

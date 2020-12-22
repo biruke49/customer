@@ -1,0 +1,408 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Image</title>
+    <style>
+       .box{
+         width: 300px;
+         padding: 40px;
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%,-50%);
+         background: #191919;
+     }
+     .box input[type="text"]{
+          border:0;
+          background: none;
+          display: block;
+          margin: 20px auto;
+          text-align: center;
+          border: 2px solid #3498db;
+          padding: 14px 10px;
+          width: 200px;
+          outline: none;
+          color: white;
+          border-radius: 24px;
+          transition: 0.25s;
+     }
+     .box h1{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+}
+.box input[type="text"]:focus{
+    border:1;
+    border-color: ;
+          background: none;
+          display: block;
+          margin: 20px auto;
+          text-align: center;
+          border: 2px solid #3498db;
+          padding: 14px 10px;
+          width: 250px;
+          outline: none;
+          color: white;
+          border-radius: 4px;
+          transition: 0.25s;
+}
+button{
+          border:0;
+          background: none;
+          display: block;
+          margin: -20px auto;
+          text-align: center;
+          border: 2px solid #3498db;
+          padding: 14px 10px;
+          width: 200px;
+          outline: none;
+          color: white;
+          border-radius: 24px;
+          transition: 0.25s;
+          margin-bottom: 20px;
+         
+     }
+     button:hover{
+          border:0;
+          background: #1e296b;
+          display: block;
+          margin: -20px auto;
+          text-align: center;
+          border: 2px solid #3498db;
+          padding: 14px 10px;
+          width: 200px;
+          outline: none;
+          color: white;
+          border-radius: 24px;
+          transition: 0.25s;
+          margin-bottom: 20px;
+     }
+.form-group1{
+    display: none;
+}       
+.box input[type="file"]{
+         font-size: 16px;
+         margin: 10px;
+         margin-bottom: 50px;
+         background: white;
+         border-radius: 50px;
+         width: 270px;
+         box-shadow: 5px 5px 10px black;
+         outline: none;
+     }
+      label{
+          color: white;
+          margin-left: 37%;
+      }
+      ::-webkit-file-upload-button{
+          color: white;
+          background: #206a5d;
+          padding: 20px;
+          border: none;
+          border-radius: 1px 0 1px 1px #6b4559;
+          outline: none;
+      }
+      ::-webkit-file-upload-button:hover{
+          background: #2b3e7c;
+      }
+body{
+    background: #f2f5f5;
+    background-image: url(14.jpg);
+}
+
+
+
+
+
+nav{
+    background: black;
+    margin-top: 1%;
+    opacity: 90%;
+}
+nav:after{
+    content: '';
+    clear: both;
+    display: table;
+}
+.logo{
+    float: left;
+    color: #ece3e3;
+    font-size: 28px;
+    font-weight: 400;
+    padding-left: 100px;
+    line-height: 70px;
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+    margin-top: 10px;
+   
+    margin-bottom: -10px;
+}
+nav ul{
+    float: right;
+    list-style: none;
+    margin-right: 60px;
+    position: relative;
+}
+nav ul li{
+    float: left;
+    display: inline-flexbox;
+    background: black;
+    margin: 5px 5px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 20px;
+    padding: 13px 10px;
+}
+nav ul li a:hover{
+    color:#ff5722;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ff5722,0 0 5px #ff5722;
+    visibility: visible;
+}
+nav ul ul li a:hover{
+    box-shadow: none;
+    color: #ff5722;
+}
+nav ul ul{
+    position: absolute;
+    top: 90px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top .4s;
+    border-top:2px solid #ff5722;
+}
+nav ul li:hover > ul{
+    opacity: 1;
+    visibility:visible;
+    top: 70px;
+    text-align: center;
+
+}
+nav ul ul ul{
+    border-top: none;
+}
+nav ul ul li{
+    position: relative;
+    margin: 0px;
+    width: 150px;
+    float: none;
+    display: list-item;
+    border-top: 1px solid #F44336;
+}
+nav ul ul li a{
+    line-height: 50px;
+}
+nav ul ul ul li{
+    position: relative;
+    top: -71px;
+    left: -150px;
+    text-align: center;
+}
+nav ul ul li:hover{
+    color: #ff5722;
+}
+nav .logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.social-icons {
+    float: left;
+    margin-top: 00px;
+}
+
+.social-icons a img {
+    padding-right: 10px;
+}
+
+
+
+
+
+.social{
+  position: fixed;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translate(-290px, 0);
+}
+
+.social a{
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  display: block;
+  margin: 5px;
+  padding: 20px;
+  width: 300px;
+  text-align: right;
+  border-radius: 50px;
+  transition: 1s;
+  transition-property: transform;
+}
+
+.social a:hover{
+  transform: translate(140px, 0);
+}
+
+.social i{
+  margin-left: 13px;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.social a:nth-child(1) i{
+  color: #1DA0F0;
+}
+
+.social a:nth-child(2) i{
+  color: #F80000;
+}
+
+.social a:nth-child(3) i{
+  color: #B7B9F0;
+  
+}
+
+.social a:nth-child(4) i{
+  color: #4ECCE8;
+}
+
+select{
+    padding: 10px;
+    width: 80%;
+    margin-left: 10%;
+    background-color:#191919;
+    color: white;
+}
+select option{
+    padding: 10px;
+}
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"> 
+    <link rel="shortcut icon" type="image/x-icon" href="logo.jpg">
+  <script src="https://kit.fontawesome.com/36dca2c339.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="aindex.html"><img width="65px" height="65px"  src="logo1000.jpg"></a>
+            </div>
+            <ul>
+                
+                <li><a href="">Manage <i class="fas fa-angle-down"></i></a>
+                    <ul>
+                        <li><a href="customers.html">Customer</a></li>
+                        
+                        <li><a href="employee.html">Employee</a></li>
+                        <li><a href="admin.html">Admin</a></li>
+                        <li><a href="aa.html">Complaint</a></li>
+                        <li><a href="records.html">Record</a></li>
+    
+                    </ul>
+                </li>
+                <li><a href="updpro.php">Account <i class="fas fa-angle-down"></i></a>
+                    <ul>
+                        <li><a href="logout.php" onclick="logout()">Logout</a></li>
+                    </ul>
+                </li>	
+        </nav>
+    </header>
+    
+    <div class="social">
+        <a href="https://www.facebook.com/EEUOfficial/" target="_blank">Facebook<i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        <a href="mailto:eeucommunication@gmail.com" target="_blank">Email<i class="fa fa-envelope" aria-hidden="true"></i>
+    </i></a>
+        <a href="https://twitter.com/EEUEthiopia" target="_blank">Twitter<i class="fa fa-twitter" aria-hidden="true"></i></a>
+    
+    </div>
+    <div class="form-wrap">
+        <form class="box">
+            <h1>Upload Form</h1>
+            <div class="form-group">
+              
+                <input type="text" id="fullname" placeholder="Fullname" class="form-control" required>
+               
+                <select id="folder" required>
+                    <option value="">Select One</option>
+                    <option value="Blueprint">Blueprint</option>
+                    <option value="ID">ID</option>
+                </select>
+            </div>
+            <div class="form-group">
+              <br>  <label>Personal ID</label>
+                <input type="file" id="photo" class="form-control" required>
+            </div>
+            <div class="form-group1">
+                <label>Blueprint</label>
+                <input type="text" id="photo1" class="form-control" required>
+            </div>
+            <button onclick="uploadimage();uploadimage1();">Upload Image</button>
+        </form>
+    </div>
+  
+   
+</body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-storage.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyB2GGAA-f1TadVXuVMXsT4ZcMnIU-YaI9Y",
+    authDomain: "elpa2-46d16.firebaseapp.com",
+    databaseURL: "https://elpa2-46d16-default-rtdb.firebaseio.com",
+    projectId: "elpa2-46d16",
+    storageBucket: "elpa2-46d16.appspot.com",
+    messagingSenderId: "680254308610",
+    appId: "1:680254308610:web:335bcdfc32490e3e8ec21b",
+    measurementId: "G-8KPHWTQN4P"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+  function uploadimage(){
+      var fullname = document.getElementById('fullname').value;
+      var folder = document.getElementById('folder').value;
+      var ref = firebase.storage().ref(folder +'/' + fullname)
+      var file = document.querySelector("#photo").files[0]
+      var name = new Date() + '-' + file.name
+      var metadata = {
+          contentType:file.type
+              }
+      var task = ref.child(name).put(file,metadata)
+      task
+      .then(snapshot => snapshot.ref.getDownloadURL())
+      .then(url =>{
+          console.log(url)
+          alert("Uploaded Successfully");
+          
+      })
+      erased();
+     }
+     function erased(){
+        document.getElementById('fullname').value = '';
+      document.getElementById('folder').value = '';
+     }
+
+ 
+</script>
+</html>
